@@ -14,6 +14,8 @@
 
 }
 
+/*Header Section*/
+
 #header {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -34,6 +36,7 @@ hr {
     background-color: var(--text-color);
 }
 
+        /*End of back to home button*/
 .back{
     background-color: var(--text-color);
     color: var(--bg-color);
@@ -54,6 +57,13 @@ hr {
     text-decoration: none;
     color: var(--bg-color);
 }
+
+    /*End of back to home button*/
+
+/* End of Header Section*/
+
+
+  /*Back to top button*/
 #myBtn {
     display: none;
     position: fixed;
@@ -73,7 +83,11 @@ hr {
   #myBtn:hover {
     background-color: red;
   }
-/*Section*/
+
+  /*End of back to top button*/
+
+
+/* Project Section*/
 .row{
     width: 80%;
     height: 400px;
@@ -110,3 +124,6 @@ img{
 .caption:hover{
     background: var(--hover-color);
 }
+
+
+  /*End of Project Section*/
