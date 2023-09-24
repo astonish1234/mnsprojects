@@ -18,7 +18,7 @@
 
 #header {
     margin-top: 20px;
-    margin-bottom: 420px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -63,81 +63,83 @@ hr {
 /* End of Header Section*/
 
 
-/*Form Container*/
-#form_container{
-    width: 50%;
-    height: 750px;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    padding: 10px;
-    background:var(--text-color);
+
+.container{
+    background-color: var(--text-color);
+    height: 500px;
+    width:100%;
+    margin: 0 auto;
+    margin-top:20px;
 }
 
-#form{
-    width: 80%;
-    height: 650px;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    color: var(--text-color);
-    padding: 10px;
+
+.img{
+    float:right;
+    margin-top: 40px;
+    margin-bottom:40px;
+}
+
+
+ #image{
+     height:400px;
+     width:50%;
+ }
+
+ .content{
+    background-color: var(--bg-color);
+    height:400px;
+    width:50%;
+    float:left;
+    margin-top:40px;
+    margin-left: 40px;
+    margin-bottom:40px;
+    border-radius: 10px;
+    text-align:center;
+}
+
+
+.row{
+    background-color: var(--hover2-color);
+    margin-top:50px;
+    height:250px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     border-radius: 10px;
 }
 
-#form label{
-    font-weight: bold;
-    margin-right: 20px;
-    padding: 10px;
-    color: white;
+.col{
+    background-color: var(--bg-color);
+    height:120px;
+    width:150px;
 }
-#form input{
-    height: 5%;
-    width: 100%;
-    color: grey;
-    margin-top: 6px;
-    margin-bottom: 10px;
-    }
-textarea{
-    height: 200px;
-    width: 100%;
-    margin-top: 6px;
-}
-#btn{
-    background-color: var(--text-color);
-    color: var(--bg-color);
-    margin: 10px;   
-    border-radius: 5px;
-    width: 100px;
-    height: 30px;
+
+#sub-title{
+    margin-top:50px;
     text-align: center;
-    font-weight: bold;
+    color: var(--text-color);
+    font-size: 3vw;
     text-transform: uppercase;
 }
-#btn:hover{
-    background:var(--hover2-color);
-}
 
 
-/*End of Form Container*/
-
-
-#main{
-    text-align: center;
-}
 
 #box{
     background:var(--bg2-color);
     width:100%;
     height:10vw;
     border-radius: 20px 20px 0 0;
-    
 }
 
 #container{
+    margin-top: 50px;
     text-align: center;
     padding-top: 100px;
 }
+
+
+
+
 
