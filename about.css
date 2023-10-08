@@ -112,8 +112,9 @@ hr {
 
 .col{
     background-color: var(--bg-color);
-    height:120px;
-    width:150px;
+    height:190px;
+    width:200px;
+    border-radius: 7px;
 }
 
 #sub-title{
@@ -139,7 +140,22 @@ hr {
     padding-top: 100px;
 }
 
+.tick{
+    position: relative;
+    top:40%;
+    left:50%;
+    padding: 10px;
+    transform: translate(-50%,-50%);
+}
 
-
-
+.sub{
+    position: relative;
+    top:30%;
+    left:50%;
+    padding: 10px;
+    transform: translate(-50%,-50%);
+    font-size: 1vw;
+    color: var(--text-color);
+    text-align: center;
+}
 

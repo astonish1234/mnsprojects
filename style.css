@@ -9,10 +9,31 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding:0;
     margin: 0;
+    box-sizing: border-box;
 
 }
 
 /*Navbar section*/
+
+@media   (max-width:768px)
+{
+
+    #navbar{
+    background-color: #00d4ff;
+
+    }
+
+    #navbar ul li{
+        background-color: #028499;
+        width:10px;
+        display:block;
+        padding: 4px 6px;
+  
+    }
+
+
+
+}
 
 #navbar{
     text-align: right;
