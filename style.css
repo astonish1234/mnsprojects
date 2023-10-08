@@ -38,6 +38,8 @@
 
 #navbar{
     text-align: right;
+    background-color: white;
+    padding: 60px;
 }
 
 #navbar ul li{
@@ -61,7 +63,16 @@
 
 
 /*Navbar section*/
+#logo{
+    position: relative;
+    float:left;
+    height:5vw;
+    width:5vw;
+}
 
+#header{
+    display: block;
+}
 #main{
     text-align: center;
 }
