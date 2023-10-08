@@ -63,67 +63,83 @@ hr {
 /* End of Header Section*/
 
 
-  /*Back to top button*/
-#myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    background-color:#0C356A;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
-  }
-  
-  #myBtn:hover {
-    background-color: red;
-  }
 
-  /*End of back to top button*/
-
-
-/* Project Section*/
-.row{
-    width: 80%;
-    height: 400px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-.two{
-    margin-top: 2px;
-}
-img{
-    width:100% ;
-    height: 250px !important;
-    border-radius: 10px;
-    object-fit: cover;
-}
-.caption{
+.container{
+    background-color: var(--text-color);
+    height: 500px;
     width:100%;
-    height: 50px;
+    margin: 0 auto;
+    margin-top:20px;
+}
+
+
+.img{
+    float:right;
+    margin-top: 40px;
+    margin-bottom:40px;
+}
+
+
+ #image{
+     height:400px;
+     width:50%;
+ }
+
+ .content{
+    background-color: var(--bg-color);
+    height:400px;
+    width:50%;
+    float:left;
+    margin-top:40px;
+    margin-left: 40px;
+    margin-bottom:40px;
     border-radius: 10px;
-    background-color:var(--bg-color);
+    text-align:center;
 }
-.caption p{
-    position: relative;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+
+
+.row{
+    background-color: var(--hover2-color);
+    margin-top:50px;
+    height:250px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.col{
+    background-color: var(--bg-color);
+    height:120px;
+    width:150px;
+}
+
+#sub-title{
+    margin-top:50px;
     text-align: center;
+    color: var(--text-color);
+    font-size: 3vw;
+    text-transform: uppercase;
 }
 
-.caption:hover{
-    background: var(--hover-color);
+
+
+#box{
+    background:var(--bg2-color);
+    width:100%;
+    height:10vw;
+    border-radius: 20px 20px 0 0;
+}
+
+#container{
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 100px;
 }
 
 
-  /*End of Project Section*/
+
+
+
